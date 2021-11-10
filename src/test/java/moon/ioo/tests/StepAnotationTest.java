@@ -6,14 +6,6 @@ import io.qameta.allure.Story;
 import moon.ioo.tests.steps.WebSteps;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selectors.withText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
-import static io.qameta.allure.Allure.step;
-import static org.openqa.selenium.By.linkText;
-import static org.openqa.selenium.By.partialLinkText;
-
 @Owner("ioomoon")
 @Feature("Issues")
 @Story("Issue display")
